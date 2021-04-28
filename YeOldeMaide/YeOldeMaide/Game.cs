@@ -9,7 +9,7 @@ namespace YeOldeMaide
     {
         public Player OldMaid { get; set; }
 
-        Player Human = new Player() { Name="Human", IsHuman = true};
+        public Player Human = new Player() { Name="Human", IsHuman = true};
         List<Player> computerPlayers = new List<Player>();
         List<Player> allPlayers = new List<Player>();
         public Game(int compPlayerCount, string playerName, bool xRay)
