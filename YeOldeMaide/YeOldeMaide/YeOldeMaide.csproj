@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="Card.cs" />
     <Compile Include="CardDeck.cs" />
-    <Compile Include="ConsoleHelper.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Reporter.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
